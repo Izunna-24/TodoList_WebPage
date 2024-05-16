@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header .title {
+    font-size: 24px;
+    color: rgb(51, 51, 51);
+}
+
+#page-banner p {
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+#search-tasks input[type="text"] {
+    padding: 8px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+#book-list, #task-list {
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    margin-bottom: 10px;
+}
+
+
+#tasks {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tasks li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tasks li:hover {
+    background-color: rgb(249, 249, 249);
+}
+
+.delete {
+    color: red;
+    cursor: pointer;
+}
+
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input[type="text"], form button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+form button {
+    margin-left: 10px;
+    background-color: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+
+.completed {
+    background-color: rgb(240, 240, 240);
+    text-decoration: line-through;
+}
